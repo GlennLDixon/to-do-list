@@ -44,7 +44,8 @@ input.addEventListener("keypress", function(keyPressed){
 
 // event listener for edit to adit li post
 editBtn.addEventListener('click', function(){
-    document.querySelectorAll(li).value;
+   var listItem = document.querySelectorAll(li).value;
+   
 });
 
 // event listener to linethrough list if clicked
